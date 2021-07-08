@@ -1,6 +1,6 @@
 import Layout from '../components/layout';
 import Counter from '../components/counter';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 const Index = () => {
   const { t } = useTranslation('common');
